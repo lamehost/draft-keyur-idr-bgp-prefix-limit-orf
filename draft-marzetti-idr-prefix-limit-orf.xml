@@ -352,8 +352,9 @@ The authors would like to thank ... for their valuable comments.
 </section>
 <section anchor="IANA" title="IANA Considerations">
   <t>
-    This specification requests a new Cooperative Route Filter <xref target="RFC5291"/>
-    type code.
+    IANA is requested to assign value TBD (PrefixLimit ORF) in the "BGP
+    Outbound Route Filtering (ORF) Types" subregistry under the "Border
+    Gateway Protocol (BGP) Parameters" registry.
   </t>
 </section>
 </middle>
