@@ -295,9 +295,15 @@
    sending speaker by the receiving speaker.
 </t>
 <t>
-   The receiving speaker MUST NOT advertise a prefix to its peer if
-   doing so would cause its advertised prefix count to exceed the
-   PrefixLimit.
+   If Match field is set to DENY the advertised Prefix-Limit value is
+   purely informational and the receiving speaker SHOULD advertise the
+   prefix even if doing so would cause its advertised prefix count to
+   exceed the Prefix-Limit.
+</t>
+<t>
+  Else, if Match field is set to ALLOW, the receiving speaker MUST NOT
+  advertise a prefix to its peer if doing so would cause its advertised
+  prefix count to exceed the PrefixLimit.
 </t>
 <t>
    The receiving speaker MAY take local action when its advertised
