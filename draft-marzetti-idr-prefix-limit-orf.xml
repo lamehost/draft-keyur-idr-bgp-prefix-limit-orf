@@ -17,11 +17,24 @@
  <?rfc iprnotified="no" ?>
   <?rfc strict="no" ?>
 
-<rfc category="std" docName="draft-keyur-idr-bgp-prefix-limit-orf-01.txt" ipr="trust200902">
+<rfc category="std" docName="draft-mmarzetti-idr-bgp-prefix-limit-orf-00.txt" ipr="trust200902">
 
 <front>
 <title abbrev="Prefix Limit Based ORF for BGP-4">Prefix Limit Based ORF for BGP-4</title>
 
+<author fullname="Marco Marzetti" initials="M" surname="Marzetti">
+  <organization>PCCW Global</organization>
+  <address>
+    <postal> 
+      <street>Via Palma il Vecchio, 55</street>
+      <city>Chiuduno</city>
+      <region>BG</region>
+      <code>24060</code> 
+      <country>Italy</country>
+    </postal>
+    <email>mmarzetti@pccwglobal.com</email>
+  </address>
+</author>
 <author fullname="Keyur Patel" initials="K" surname="Patel">
   <organization>Arrcus, Inc</organization>
   <address>
@@ -46,18 +59,6 @@
     <email>jgs@juniper.net</email>
   </address>
 </author>
-<author fullname="Marco Marzetti" initials="M" surname="Marzetti">
-  <organization>PCCW Global</organization>
-  <address>
-    <postal> 
-      <street> 450 Spring Park Place, Suite 100</street>
-      <city> Herndon </city>
-      <region> VA</region>
-      <code> 20170</code> 
-    </postal>
-    <email>mmarzetti@pccwglobal.com</email>
-  </address>
-</author>
 <author fullname="Jakob Heitz" initials="J" surname="Heitz">
   <organization>Cisco</organization>
   <address>
@@ -68,6 +69,19 @@
       <code>95124</code> 
     </postal>
     <email>jheitz@cisco.com</email>
+  </address>
+</author>
+<author fullname="Job Snijders" initials="J" surname="Snijders">
+  <organization>NTT Communications</organization>
+  <address>
+    <postal> 
+      <street>Theodorus Majofskistraat 100</street>
+      <city>Amsterdam</city>
+      <region>SZ</region>
+      <code>1065</code> 
+      <country>The Netherlands</country>
+    </postal>
+    <email>mmarzetti@pccwglobal.com</email>
   </address>
 </author>
 
