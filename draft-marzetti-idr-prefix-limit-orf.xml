@@ -273,7 +273,7 @@
    and it MUST accept withdrawals of already-accepted prefixes.  If
    prefixes are withdrawn, the received prefix count will drop below the
    announced PrefixLimit and new prefixes SHOULD be accepted, again up
-   to but not exceeding the limit.  Prefixes which are refused SHOULD
+   to but not exceeding the limit.  Prefixes which are refused MUST
    NOT contribute to the received prefix count.
 </t>
 <t>
