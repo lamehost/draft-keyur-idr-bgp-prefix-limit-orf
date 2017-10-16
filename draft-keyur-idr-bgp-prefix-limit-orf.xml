@@ -139,9 +139,9 @@
                 <xref target="RFC5291" />, and the remaining field of the entry is encoded in the "Type specific part" as follows.
                 <figure>
                     <artwork>
-        +--------------------------------------------------+
-        | Prefix-Limit (4 octets)                          |
-        +--------------------------------------------------+
+              +--------------------------------------------------+
+              |       Prefix-Limit  (4 octets)                   |
+              +--------------------------------------------------+
                     </artwork>
                 </figure>
             </t>
@@ -204,7 +204,7 @@
                     The receiving speaker MAY take local action when its advertised prefix count approaches the PrefixLimit. The nature of the action (logging, etc) is a matter of local policy, as is the threshold at which the action occurs.
                 </t>
                 <t>
-                    When the receiving speaker receives a PrefixLimit ORF with When-to-Refresh set to DEFER, it need not take any additional action unlessits current advertised prefix count exceeds the new PrefixLimit. In that case, it MUST take immediate steps to correct the violation.
+                    When the receiving speaker receives a PrefixLimit ORF with When-to-Refresh set to DEFER, it need not take any additional action unless its current advertised prefix count exceeds the new PrefixLimit. In that case, it MUST take immediate steps to correct the violation.
                 </t>
                 <t>
                     Such steps MAY include withdrawing already-advertised prefixes so as to reduce the advertised prefix count to be less than or equal to the PrefixLimit. The selection of which prefixes to withdraw is a matter of local policy. Another option to correct the violation would be to drop the session; in this case the session SHOULD NOT be automatically reestablished.
@@ -236,7 +236,7 @@
     </middle>
     <back>
         <references title="Normative References">
-            &RFC2119; &RFC3392; &RFC4271; &RFC5291; &RFC5292;
+            <?rfc include="reference.RFC.5291.xml"?>
         </references>
     </back>
 </rfc>
