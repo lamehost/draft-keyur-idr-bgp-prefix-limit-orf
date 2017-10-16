@@ -15,7 +15,7 @@
 <?rfc subcompact="no" ?>
 <?rfc iprnotified="no" ?>
 <?rfc strict="no" ?>
-<rfc category="std" docName="draft-keyur-idr-prefix-limit-orf-02" ipr="trust200902">
+<rfc category="std" docName="draft-keyur-idr-bgp-prefix-limit-orf-02" ipr="trust200902">
     <front>
         <title abbrev="Prefix Limit Based ORF for BGP-4">Prefix Limit Based ORF for BGP-4</title>
         <author fullname="Marco Marzetti" initials="M" surname="Marzetti">
