@@ -108,6 +108,11 @@
                 This filtering mechanism imposes a limit on a the number of unique prefixes that the BGP speaker can advertise to its neighbor.
             </t>
         </section>
+        <section title="Requirements Language">
+            <t>
+                The key words "MUST", "MUST NOT", "REQUIRED", "SHALL", "SHALL NOT", "SHOULD", "SHOULD NOT", "RECOMMENDED", "MAY", and "OPTIONAL" in this document are to be interpreted as described in <xref target="RFC2119">RFC 2119</xref>.
+            </t>
+        </section>
         <section title="Prefix Limit ORF-Type">
             <t>
                 The Prefix Limit ORF-Type allows a BGP speaker to inform its neighbor of its prefix limits.
@@ -268,6 +273,7 @@
     </middle>
     <back>
         <references title="Normative References">
+            <?rfc include="reference.RFC.2119.xml"?>
             <?rfc include="reference.RFC.5291.xml"?>
         </references>
     </back>
