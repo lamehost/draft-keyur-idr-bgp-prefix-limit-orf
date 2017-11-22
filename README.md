@@ -25,3 +25,16 @@ repository constitutes Contributions to the IETF Standards Process
 You agree to comply with all applicable IETF policies and procedures,
 including, BCP 78, 79, the TLP, and the TLP rules regarding code components
 (e.g. being subject to a Simplified BSD License) in Contributions.
+
+Implementations
+------
+
+This page tracks draft-keyur-idr-bgp-prefix-limit-orf implementations
+| Vendor | Software | Status | Notes |
+| ------ | ---------| ------ | ----- |
+| cz.nic | BIRD | Requested | Pending replies |
+| FreeRangeRouting | FRR | Requested | Pending replies |
+| nop.hu | freeRouter | Requested | Estimated development effort by the authors: 2 days |
+| OpenBSD | OpenBGPD | Requested | Pending replies |
+| OSRG | GoBGPD | Requested | Pending replies |
+| Quagga | Quagga | Requested | Pending replies |
