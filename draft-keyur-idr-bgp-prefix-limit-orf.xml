@@ -15,7 +15,7 @@
 <?rfc subcompact="no" ?>
 <?rfc iprnotified="no" ?>
 <?rfc strict="no" ?>
-<rfc category="std" docName="draft-keyur-idr-bgp-prefix-limit-orf-02" ipr="trust200902">
+<rfc category="std" docName="draft-keyur-idr-bgp-prefix-limit-orf-03" ipr="trust200902">
     <front>
         <title abbrev="Prefix Limit Based ORF for BGP-4">Prefix Limit Based ORF for BGP-4</title>
         <author fullname="Marco Marzetti" initials="M" surname="Marzetti">
@@ -229,11 +229,11 @@
                     If Match field is set to DENY the advertised Prefix-Limit value is purely informational and the receiving speaker SHOULD advertise the prefix even if doing so would cause its advertised prefix count to exceed the Prefix-Limit.
                 </t>
                 <t>
-                    Else, if Match field is set to ALLOW, the receiving speaker MUST NOT advertise a prefix to its peer if doing so would cause its advertised prefix count to exceed the PrefixLimit.
+                    Else, if Match field is set to PERMIT, the receiving speaker MUST NOT advertise a prefix to its peer if doing so would cause its advertised prefix count to exceed the PrefixLimit.
                 </t>
                 <t>
-                    The receiving speaker MAY take local action when its advertised prefix count approaches the PrefixLimit.
-                    The nature of the action (logging, etc) is a matter of local policy, as is the threshold at which the action occurs.
+                    The receiving speaker MAY take local action when its advertised prefix count approaches or reaches the PrefixLimit.
+                    The nature of the action (logging, incrementing counters, etc) is a matter of local policy, as is the threshold at which the action occurs.                    
                 </t>
                 <t>
                     When the receiving speaker receives a PrefixLimit ORF with When-to-Refresh set to DEFER, it need not take any additional action unless its current advertised prefix count exceeds the new PrefixLimit.
